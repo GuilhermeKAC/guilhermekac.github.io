@@ -18,8 +18,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section id="education" ref="sectionRef" class="py-40 bg-midnight">
-    <div class="w-full px-8 md:px-16 lg:px-24">
+  <section id="education" ref="sectionRef" class="app-section bg-bg">
+    <div class="app-container">
       <SectionHeading number="03" :title="t('education.title')" />
 
       <!-- Formação principal -->

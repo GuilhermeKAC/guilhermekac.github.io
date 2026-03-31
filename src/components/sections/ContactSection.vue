@@ -21,8 +21,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section id="contact" ref="sectionRef" class="py-40 bg-midnight-soft">
-    <div class="w-full px-8 md:px-16 lg:px-24">
+  <section id="contact" ref="sectionRef" class="app-section bg-bg-soft">
+    <div class="app-container">
       <SectionHeading number="04" :title="t('contact.title')" />
       <p class="font-sans text-[0.9rem] leading-[1.7] text-muted -mt-16 mb-16">
         {{ t('contact.availability') }}

@@ -30,24 +30,29 @@ onUnmounted(() => {
   <AppHeader />
   <main class="pt-16">
     <HeroSection />
-    <div class="section-container">
-      <div class="h-px bg-midnight-border opacity-10" />
+    <div class="app-container">
+      <div class="h-px" style="background: var(--color-border);
+           opacity: 0.25" />
     </div>
     <TechStackSection />
-    <div class="section-container">
-      <div class="h-px bg-midnight-border opacity-10" />
+    <div class="app-container">
+      <div class="h-px" style="background: var(--color-border);
+           opacity: 0.25" />
     </div>
     <ExperienceSection />
-    <div class="section-container">
-      <div class="h-px bg-midnight-border opacity-10" />
+    <div class="app-container">
+      <div class="h-px" style="background: var(--color-border);
+           opacity: 0.25" />
     </div>
     <AchievementsSection />
-    <div class="section-container">
-      <div class="h-px bg-midnight-border opacity-10" />
+    <div class="app-container">
+      <div class="h-px" style="background: var(--color-border);
+           opacity: 0.25" />
     </div>
     <EducationSection />
-    <div class="section-container">
-      <div class="h-px bg-midnight-border opacity-10" />
+    <div class="app-container">
+      <div class="h-px" style="background: var(--color-border);
+           opacity: 0.25" />
     </div>
     <ContactSection />
   </main>

@@ -16,28 +16,21 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section ref="sectionRef" class="app-section bg-midnight-soft">
-    <div class="section-container">
+  <section ref="sectionRef" class="app-section bg-bg-soft">
+    <div class="app-container">
       <SectionHeading :title="t('achievements.title')" />
 
-      <div class="divide-y divide-midnight-border">
+      <div class="divide-y" style="border-color: var(--color-border)">
         <div
           v-for="item in items"
           :key="item.metric"
-          class="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 lg:gap-16 py-14 first:pt-0 last:pb-0"
+          class="editorial-grid py-12 first:pt-0 last:pb-0"
         >
-          <!-- Métrica grande à esquerda -->
-          <div class="flex flex-col justify-center">
-            <span class="heading-lg text-accent">
-              {{ item.metric }}
-            </span>
+          <div class="heading-lg" style="color: var(--color-accent)">
+            {{ item.metric }}
           </div>
-
-          <!-- Descrição à direita -->
           <div class="flex items-center">
-            <p class="text-body text-muted max-w-2xl">
-              {{ item.description }}
-            </p>
+            <p class="text-body">{{ item.description }}</p>
           </div>
         </div>
       </div>

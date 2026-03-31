@@ -23,9 +23,10 @@ onMounted(async () => {
   <section
     id="hero"
     ref="heroRef"
-    class="min-h-screen flex items-center bg-midnight"
+    class="min-h-screen flex items-center bg-bg"
   >
-    <div class="section-container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-24 lg:py-32">
+    <div class="app-container grid grid-cols-1
+                               lg:grid-cols-2 gap-16 items-center">
 
       <!-- Coluna de texto -->
       <div class="hero-meta flex flex-col gap-10">
@@ -34,11 +35,11 @@ onMounted(async () => {
             São José dos Campos, SP · 2026
           </span>
 
-          <h1 class="hero-lastname heading-xl">
+          <h1 class="heading-display">
             Guilherme<br>Kruszynski
           </h1>
 
-          <p class="text-mono text-muted mt-2">
+          <p class="label-mono mt-4">
             {{ t('hero.role') }} · PHP · Laravel · PostgreSQL
           </p>
         </div>

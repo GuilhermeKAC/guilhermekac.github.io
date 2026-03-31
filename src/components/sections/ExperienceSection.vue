@@ -17,8 +17,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section id="experience" ref="sectionRef" class="py-40 bg-midnight w-full">
-    <div class="w-full px-8 md:px-16 lg:px-24">
+  <section id="experience" ref="sectionRef" class="app-section bg-bg">
+    <div class="app-container">
       <SectionHeading number="01" :title="t('experience.title')" />
 
       <div class="w-full">
