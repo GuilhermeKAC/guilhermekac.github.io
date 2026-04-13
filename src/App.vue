@@ -8,7 +8,6 @@ import ProgressBar from '@/components/ui/ProgressBar.vue'
 import HeroSection from '@/components/sections/HeroSection.vue'
 import TechStackSection from '@/components/sections/TechStackSection.vue'
 import ExperienceSection from '@/components/sections/ExperienceSection.vue'
-import AchievementsSection from '@/components/sections/AchievementsSection.vue'
 import EducationSection from '@/components/sections/EducationSection.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
 
@@ -40,11 +39,6 @@ onUnmounted(() => {
            opacity: 0.25" />
     </div>
     <ExperienceSection />
-    <div class="app-container">
-      <div class="h-px" style="background: var(--color-border);
-           opacity: 0.25" />
-    </div>
-    <AchievementsSection />
     <div class="app-container">
       <div class="h-px" style="background: var(--color-border);
            opacity: 0.25" />
